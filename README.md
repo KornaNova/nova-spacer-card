@@ -1,10 +1,12 @@
-# nova-spacer-card
+# Nova Spacer Card
 
 To use simply add like a regular card:
 
+    composer require ideatocode/nova-spacer-card
+
 ```php
-
-
+use Ideatocode\NovaSpacerCard\NovaSpacerCard;
+// ...
   public function cards()
   {
     return [
